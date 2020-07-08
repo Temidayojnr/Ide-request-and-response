@@ -1,0 +1,21 @@
+GET http://localhost:4000/users
+
+###
+
+POST http://localhost:4000/users/add
+Content-Type: application/json
+
+{
+    "name": "Temidayo",
+    "password": "password"
+}
+
+###
+
+POST http://localhost:4000/users/login
+Content-Type: application/json
+
+{
+    "name": "Temidayo",
+    "password": "password"
+}
